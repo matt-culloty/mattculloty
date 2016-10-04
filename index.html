@@ -4,38 +4,56 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    
-    <meta name="description" content="This is the website of Matt Culloty. Matt Culloty is an independent web designer and developer from Baltimore, Maryland.">
+    <link rel="apple-touch-icon" sizes="57x57" href="images/fav/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/fav/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/fav/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/fav/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/fav/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/fav/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/fav/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/fav/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/fav/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="images/fav/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/fav/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/fav/favicon-16x16.png">
+    <link rel="manifest" href="images/fav/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/fav/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Matt Culloty | Freelance Web Designer / Developer | Baltimore, MD</title>
+
+    <meta name="description" content="This is the website of Matt Culloty - a freelance web designer and developer from Baltimore, Maryland.">
     <meta name="author" content="Matt Culloty">
+    <meta name="keywords" content="matt culloty, freelance, web designer, web developer, portfolio">
 
-    <link rel="icon" href="images/matt-culloty-fav-inverse.png">
-
-    <title>Matt Culloty - Freelance web designer and web developer based out of Baltimore, MD.</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="stylesheets/styles.css" rel="stylesheet">
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="stylesheets/ie10-viewport-bug-workaround.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link href="stylesheets/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/ie10-viewport-bug-workaround.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="stylesheets/custom.css">
     <link rel="stylesheet" href="stylesheets/font-awesome.min.css">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="javascripts/ie-emulation-modes-warning.js"></script>
-
-    <script src="https://use.typekit.net/bga4yys.js"></script>
-    <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <!-- typekit -->
+    <script src="https://use.typekit.net/bga4yys.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+    <!-- google analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-85149629-1', 'auto');
+      ga('send', 'pageview');
+    </script>
   </head>
 
   <body>
@@ -50,7 +68,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-              <a class="navbar-brand" href="index.html">
+              <a class="navbar-brand" role="presentation" href="#top">
                 <i class="fa fa-hand-o-up" aria-hidden="true"></i>
               </a>
           </div>
@@ -66,11 +84,10 @@
       
       <div class="row hero" id="top">
         <div class="col-xs-12">
-          <img alt="Matt Culloty logo and header image for Matt Culloty's website homepage" class="animated bounceInDown m-b-2 p-b-2 img-responsive center-block" src="images/matt-culloty-hero.svg">
+          <img alt="Matt Culloty | Web Designer and Developer - main logo" class="animated bounceInDown m-b-2 p-b-2 img-responsive center-block" src="images/matt-culloty-hero.svg">
           <h3 class="text-center p-b-2 border-bottom">{ Taking a simple approach to complex problems }</h3>
         </div>
       </div>
-
     </div>
 
       <div class="row who-is" id="about">
@@ -151,7 +168,7 @@
             </div>
             <div class="media-body">
               <h4 class="media-heading">Analytics Implementation</h4>
-                <p>Positive experiences are data driven. I will track your sites performance by monitoring Key Performance Indicators</p>
+                <p>Positive experiences are data driven. I will track your sites performance by monitoring Key Performance Indicators.</p>
             </div>
           </div>
 
@@ -237,10 +254,7 @@
 
   </div> <!-- /.container -->
 
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+    <!--JS placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="javascripts/bootstrap.min.js"></script>
@@ -252,7 +266,7 @@
           $('[data-toggle="popover"]').popover({
               placement : 'top',
               html : true,
-              content : '<div class="media-body"><p>I am Matt. An independent designer and developer from Baltimore, MD. I would love to hear more about your business goals and how I might be able to help!</p><a class="btn btn-default btn-block" href="#contact" role="button">Get a Free Consultation</a></div>'
+              content : '<div class="media-body"><p>I am Matt. An independent designer and developer from Baltimore, MD. I would love to hear more about your business goals and how I might be able to help!</p><p>Check out my LinkedIn profile for more credentials or message me via my contact form.</p><a class="btn btn-default btn-block" target="_blank" href="https://www.linkedin.com/in/matthewculloty" role="button"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a><a class="btn btn-default btn-block" href="#contact" role="button">Get a Free Consultation</a></div>'
           });
       });
     </script>
@@ -275,6 +289,6 @@
       }
       scrollNav();
     </script>
-
+    
   </body>
 </html>
